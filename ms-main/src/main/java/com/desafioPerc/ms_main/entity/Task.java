@@ -55,7 +55,9 @@ public class Task {
     private Date modifyDate;
 
     /**
-     * Matias: TODO: remove me
+     * Constructor
      */
-    public Task () {}
+    public Task() {
+        this.completed = false;
+    }
 }
